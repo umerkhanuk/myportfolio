@@ -1,0 +1,49 @@
+@media only screen and (max-width: 768px){
+    .row2{background: url(images/manny-pantoja-P2-4kxFhvCQ-unsplash.jpg) repeat-x top center / cover !important;background-color: aquamarine;}
+    .row3col1, .row3col2 { padding: 50px 23px !important}
+    .row3col1 {margin-top: 40px !important;}
+    .row3col2 img{width: 100% !important;}
+    .box, .box2{width: 29% !important;}
+    .row5footercol2 ul{padding-left: 97px !important;}
+    .row4_portfolio h4{font-size: 15px !important;}
+    .box, .box2{height: 160px !important;}
+    .box img, .box2 img{margin-top: -19px !important;}
+    .box img:hover,.box2 img:hover{
+        margin-top: 0px !important;
+      }
+}
+
+@media only screen and (max-width: 640px){
+    .row3col1, .row3col2 { padding: 50px 20px !important}
+    .box, .box2{width: 30% !important;margin: 30px 10px !important;}
+    .box img, .box2 img{height: 100% !important;}
+    .row5footercol2{width: 46% !important;float: right !important;}
+}
+@media only screen and (max-width: 480px){ 
+    .row3col1, .row3col2 { width: 41% !important}
+    .row4_portfolio li button{padding: 12px 20px !important;}
+    .box, .box2{width: 45% !important;}
+    .row5footercol2{float: none !important;}
+    .row5footercol2 ul{float: left !important;}
+    .rowcol1, .rowcol2{float: none !important;text-align: center;}
+}
+@media only screen and (max-width: 380px){ 
+    .row3col1, .row3col2 { width: 90% !important}
+    .row4_portfolio li button {padding: 12px 13px !important;font-size: 14px !important;margin: 50px 5px 20px 5px !important;}
+    .box, .box2{width: 95% !important; height: 220px !important;}
+    .first{float: left !important;width: 92% !important;}
+    table button{float: left !important;margin-left: 10px !important;}
+    table input, textarea {padding: 10px 9px !important; margin: 5px 5px !important;}
+    .row5footercol2 ul{padding-left: 15px !important;}
+}
+@media only screen and (max-width: 360px){ 
+    .row4_portfolio li button {padding: 12px 11px !important;font-size: 14px !important;margin: 50px 3px 20px 3px !important;}
+    table button { margin-left: 5px !important;}
+    table input, textarea {padding: 10px 5px !important;}
+    .first{width: 94% !important ; }
+}
+  @media only screen and (max-width: 320px) {
+    table input, textarea {margin: 5px 0px !important; padding: 10px 7px !important;}
+    .first {width: 89% !important;}
+    .row4_portfolio li button {font-size: 12px !important;}
+}
