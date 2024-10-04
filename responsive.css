@@ -27,7 +27,7 @@
     .row5footercol2 ul{float: left !important;}
     .rowcol1, .rowcol2{float: none !important;text-align: center;}
 }
-@media only screen and (max-width: 380px){ 
+@media only screen and (max-width: 380px ),(max-width: 420px){ 
     .row3col1, .row3col2 { width: 90% !important}
     .row4_portfolio li button {padding: 12px 13px !important;font-size: 14px !important;margin: 50px 5px 20px 5px !important;}
     .box, .box2{width: 95% !important; height: 220px !important;}
