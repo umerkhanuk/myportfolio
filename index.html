@@ -154,19 +154,24 @@
             <div class="wrapper">
               <h3>CONTACT</h3>
                 <div class="row5footercol1">
+                  <form action="https://api.web3forms.com/submit" method="post">
                   <table style="margin: auto;">
                     <tr>
-                      <td ><input type="text" placeholder="Name:"></td>
-                      <td><input type="email" placeholder="Email:"></td>
+                      <td ><input type="text" placeholder="Name:" name="first_name"></td>
+                      <td><input type="email" placeholder="Email:" name="email"></td>
                     </tr>
                     <tr>
-                      <td colspan="3"><input type="text" placeholder="Subject:" class="first" style="width:87%"></td>
+                      <td colspan="3"><input type="text" placeholder="Subject:" name="subject" class="first" style="width:87%" required></td>
                     </tr>
                     <tr>
-                      <td colspan="3"><textarea placeholder="Message:" class="first" style="width:87%;height: 120px;"></textarea></td>
+                      <td colspan="3"><textarea placeholder="Message:" name="message"class="first" style="width:87%;height: 120px;" required></textarea></td>
                     </tr>
-                    <tr><td colspan="3"><button style="width:95%">Submit</button></td></tr>
+                    <tr>
+                      <input type="hidden" name="access_key" value="10f9fe85-f6b8-435b-994a-b440ec806958">
+                      <td colspan="3"><button type="submit" style="width:95%">Submit</button></td></tr>
                   </table>
+                  </form>
+                  </div>
                 </div>
                 <div class="row5footercol2">
                   <ul style="margin-top: 20px; padding-top: 20px;  padding-left: 50px;">
