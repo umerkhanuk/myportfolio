@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let dev = document.getElementById('custom');
 let customprojects = () => {
     const boxes = document.getElementsByClassName('box');
