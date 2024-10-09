@@ -64,3 +64,14 @@ let showallprojects = () =>{
 }
 
 all.addEventListener('click',showallprojects)
+
+
+let button = document.getElementById("submitbutton") as HTMLButtonElement;
+button.addEventListener('click',()=>{
+    const submit = document.getElementsByClassName('submission');
+    for (let i = 0; i < submit.length; i++) {
+        const submit2 = (submit[i] as HTMLElement);
+        submit2.style.display = "block";
+
+    }
+})

@@ -1,4 +1,5 @@
-
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 let dev = document.getElementById('custom');
 let customprojects = () => {
     const boxes = document.getElementsByClassName('box');
@@ -58,3 +59,11 @@ let showallprojects = () => {
     }
 };
 all.addEventListener('click', showallprojects);
+let button = document.getElementById("submitbutton");
+button.addEventListener('click', () => {
+    const submit = document.getElementsByClassName('submission');
+    for (let i = 0; i < submit.length; i++) {
+        const submit2 = submit[i];
+        submit2.style.display = "block";
+    }
+});
